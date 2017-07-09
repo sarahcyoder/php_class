@@ -1,0 +1,101 @@
+body { 
+	background-color: white;
+ 	color: black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Arial, Helvetical, sans-serif;
+	font-weight:bold;
+}
+
+a:link {
+	color: #480607;
+}
+
+a:visited {
+	color: #675c47;
+}
+
+#header {
+	background-color: #480607;
+	color: white;
+	text-align: left;
+}
+
+.navig {
+background-color:#480607;
+border-color:#480607;
+}
+
+#footer {
+	background-color: #480607;
+	color: white;
+	text-align: center;
+	padding: 10px;
+  	font-size: 75%;
+	border-radius: 5px;
+}
+
+.error_text {
+	color: red;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.output_text {
+	color: #480607;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: #ffedad;
+}
+
+input, select {
+	font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    width: 100%;
+    background-color: #064847;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #063948;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}
+
+table, td {
+   border: 1px solid black;
+}
+
+.first {
+	font-weight:bold;
+}
+
+.color_row {
+	background-color: #c8fafa;
+}
