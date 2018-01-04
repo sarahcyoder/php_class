@@ -1,1 +1,0 @@
-[11-May-2017 17:08:47 America/Chicago] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home2/syoder/public_html/php-class/sarahyoder-L4/sarahyoder-L4.php on line 72
