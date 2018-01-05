@@ -13,9 +13,9 @@
 		$firstName = mysqli_real_escape_string($dbc, trim($_POST['firstName']));
 		$lastName = mysqli_real_escape_string($dbc, trim($_POST['lastName']));
 		$tel = mysqli_real_escape_string($dbc, trim($_POST['tel']));
- 	    $address1 = mysqli_real_escape_string($dbc, trim($_POST['address1']));
-    	$address2 = mysqli_real_escape_string($dbc, trim($_POST['address2']));
-	    $city = mysqli_real_escape_string($dbc, trim($_POST['city']));
+		$address1 = mysqli_real_escape_string($dbc, trim($_POST['address1']));
+    		$address2 = mysqli_real_escape_string($dbc, trim($_POST['address2']));
+	    	$city = mysqli_real_escape_string($dbc, trim($_POST['city']));
 		$state = mysqli_real_escape_string($dbc, trim($_POST['state']));
 		$postalCode = mysqli_real_escape_string($dbc, trim($_POST['postalCode']));
 		$country = mysqli_real_escape_string($dbc, trim($_POST['country']));
